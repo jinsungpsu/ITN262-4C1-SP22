@@ -6,7 +6,7 @@ public interface Stack<T> {
 
     /** Adds a new entry to the top of this stack.
      @param item An object to be added to the stack.
-     @throws UnsupportedOperationException If the push operation is called on an empty stack */
+     @throws UnsupportedOperationException If the push operation is the item is not successfully added to stack */
     public void push (T item) throws UnsupportedOperationException;
 
     /** Removes and returns this stack's top entry.
